@@ -5,6 +5,7 @@ info: Sesión de estudio sobre violencias basadas en género (VBG).
 class: text-center
 contextMenu: false
 transition: slide-left
+favicon: /favicon-la-fogata.png
 ---
 
 <img class="cover-logo" src="/assets/logo-la-fogata.jpeg" alt="Logo de Colectiva La Fogata">
