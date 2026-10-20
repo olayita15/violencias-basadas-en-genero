@@ -149,11 +149,44 @@ Recursos y fuente: `public/slides/03-violencia-intrafamiliar/`
 
 ---
 
-# Manifestaciones de las VBG
-<div class="cards"><div v-click="1" class="card"><h3>Física</h3><p>Afecta la integridad corporal.</p></div><div v-click="2" class="card"><h3>Psicológica y verbal</h3><p>Intimidación, humillación, amenazas, control, burlas o descalificación.</p></div><div v-click="3" class="card"><h3>Sexual</h3><p>Vulnera el consentimiento y la autonomía sexual.</p></div></div>
-<div class="cards"><div v-click="4" class="card"><h3>Económica o patrimonial</h3><p>Restringe recursos y puede generar dependencia o control.</p></div><div v-click="5" class="card"><h3>Digital</h3><p>Vigilancia, hostigamiento, amenazas o difusión sin consentimiento.</p></div><div v-click="6" class="card"><h3>Política basada en género</h3><p>Obstaculiza, intimida o excluye del ejercicio de participación.</p></div></div>
+# Tipos de VBG: daño, control y desigualdad
+<div class="cards"><div v-click="1" class="card"><h3>Verbal</h3><p>Insultos o comentarios denigrantes que hieren, acosan, menosprecian o coaccionan por género.</p></div><div v-click="2" class="card"><h3>Discriminación</h3><p>Acciones u omisiones que restringen derechos, recursos, participación o trato igualitario.</p></div><div v-click="3" class="card"><h3>Psicológica</h3><p>Intimidación, manipulación, amenazas, desprecio, humillación o condicionamientos para controlar.</p></div></div>
+<div class="cards"><div v-click="4" class="card"><h3>Simbólica</h3><p>Mensajes, valores, íconos o estereotipos que normalizan subordinación y desigualdad.</p></div><div v-click="5" class="card"><h3>Física</h3><p>Agresión —o intento— que usa el cuerpo, objetos o sustancias para inmovilizar o dañar.</p></div><div v-click="6" class="card"><h3>Sexual</h3><p>Conductas que someten el cuerpo o limitan una sexualidad libre mediante coerción, amenaza o fuerza.</p></div></div>
 
-<!-- Recursos: public/slides/15-manifestaciones-vbg/ -->
+<!--
+## Notas del orador
+
+Adaptado de la sección 7, “Tipificación de las violencias”, de la Ruta Nacional de atención y seguimiento de VBG. No leer las tarjetas como una lista de chequeo: las manifestaciones pueden coexistir.
+
+Recursos: `public/slides/15-manifestaciones-vbg/`
+-->
+
+---
+
+# Tipos de VBG: autonomía y vida cotidiana
+<div class="cards two-by-two"><div v-click="1" class="card"><h3>Doméstica</h3><p>Se produce en la convivencia cotidiana y puede articular abusos emocionales, físicos, económicos, control o acecho.</p></div><div v-click="2" class="card"><h3>Virtual</h3><p>Agresiones digitales: hostigamiento, amenazas, exposición no consentida, discursos de odio o vigilancia.</p></div><div v-click="3" class="card"><h3>Económica y patrimonial</h3><p>Controlar ingresos, recursos o decisiones financieras; retener, dañar o apropiarse de bienes o documentos.</p></div><div v-click="4" class="card"><h3>División sexual del trabajo</h3><p>Imponer tareas de cuidado, apoyo o trabajo invisible según el género y excluir de la deliberación o decisiones.</p></div></div>
+
+<!--
+## Notas del orador
+
+La Ruta distingue violencia económica de patrimonial; aquí se presentan juntas para mostrar que ambas restringen autonomía material, pero no son idénticas. La división sexual del trabajo se incluye como forma estructural de subordinación, especialmente en ámbitos organizativos y comunitarios.
+
+Recursos: `public/slides/15a-autonomia-vida-cotidiana/`
+-->
+
+---
+
+# Tipos de VBG: participación y respuesta institucional
+<div class="two-col"><div v-click="1" class="soft-panel"><h3>Violencia política</h3><p>Acciones que atemorizan, presionan, desacreditan, persiguen o limitan a mujeres y personas sexo-género diversas en su participación, representación o toma de decisiones.</p><p class="mt-4 text-sm">Puede aparecer como silenciamiento, deslegitimación de saberes, interrupciones sistemáticas o apropiación de ideas.</p></div><div v-click="2" class="soft-panel"><h3>Revictimización</h3><p>Prácticas durante o después de la atención que profundizan el daño: minimizar, culpabilizar, forzar relatos repetidos, divulgar información o poner en duda la credibilidad.</p><p class="mt-4 text-sm">Una respuesta cuidadosa protege autonomía, confidencialidad y dignidad.</p></div></div>
+<p v-click="3" class="note mt-8">Las categorías orientan el reconocimiento y la respuesta; una misma situación puede involucrar varias formas de violencia a la vez.</p>
+
+<!--
+## Notas del orador
+
+La Ruta incluye ejemplos como machoexplicación, machoapropiación y machointerrupción dentro de violencia política. Úsalos solo si ayudan a situar la conversación; no son una lista exhaustiva.
+
+Recursos: `public/slides/15b-participacion-respuesta/`
+-->
 
 ---
 

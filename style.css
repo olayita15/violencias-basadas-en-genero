@@ -40,6 +40,7 @@ h2 { font-size: 1.65em !important; }
 .note { border-left: 4px solid var(--vbg-gold); padding-left: 1rem; font-size: .82em; }
 
 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: .7rem; margin-top: 1.2rem; }
+.cards.two-by-two { grid-template-columns: repeat(2, 1fr); }
 .card { border: 1px solid #e9c8a3; padding: .8rem; min-height: 8rem; }
 .card h3 { color: var(--vbg-wine); margin: 0 0 .45rem; font-size: 1em; }
 .card p { font-size: .76em; line-height: 1.35; margin: 0; }
