@@ -82,6 +82,28 @@ Recursos y fuente: `public/slides/03-violencia-intrafamiliar/`
 
 ---
 
+# La interpretación cromosomática
+<div class="karyotype-stage">
+<p class="karyotype-intro">XX y XY son configuraciones frecuentes, pero no las únicas. Estas son algunas variaciones documentadas; los cromosomas son una dimensión de las características sexuales, no una definición total de los cuerpos ni del género.</p>
+<div class="karyotype-grid all-variants"><div v-click="1" class="karyotype-item" tabindex="0" data-tooltip="Configuración frecuente. Suele asociarse con desarrollo ovárico, pero por sí sola no determina anatomía ni identidad."><strong>XX</strong><span>frecuente</span></div><div v-click="2" class="karyotype-item" tabindex="0" data-tooltip="Configuración frecuente. Con genes y vías hormonales funcionales suele asociarse con desarrollo testicular; no es una regla automática."><strong>XY</strong><span>frecuente</span></div><div v-click="3" class="karyotype-item" tabindex="0" data-tooltip="Un X adicional. Muchas personas no presentan rasgos evidentes; algunas tienen talla alta o diferencias de aprendizaje variables."><strong>XXX</strong><span>trisomía</span></div><div v-click="4" class="karyotype-item" tabindex="0" data-tooltip="Un X adicional. Puede asociarse con menor producción de testosterona, testículos pequeños o infertilidad; la expresión es variable."><strong>XXY</strong><span>Klinefelter</span></div><div v-click="5" class="karyotype-item" tabindex="0" data-tooltip="Un Y adicional. El desarrollo testicular y la fertilidad suelen ser posibles; algunas personas presentan talla alta o diferencias de aprendizaje."><strong>XYY</strong><span>variación</span></div><div v-click="6" class="karyotype-item" tabindex="0" data-tooltip="Un solo X. Puede asociarse con baja estatura, función ovárica reducida y necesidades médicas variables; no define a la persona."><strong>45,X</strong><span>Turner</span></div><div v-click="7" class="karyotype-item" tabindex="0" data-tooltip="Distintas células pueden tener configuraciones diferentes. Los efectos dependen de cuáles células y tejidos estén implicados."><strong>mosaico</strong><span>mosaicismo</span></div><div v-click="8" class="karyotype-item" tabindex="0" data-tooltip="Cuatro X. Puede asociarse con diferencias del desarrollo y aprendizaje; las manifestaciones cambian mucho entre personas."><strong>48,XXXX</strong><span>tetrasomía</span></div><div v-click="9" class="karyotype-item" tabindex="0" data-tooltip="Tres X y un Y. Puede afectar desarrollo y función testicular, con expresiones corporales y cognitivas variables."><strong>48,XXXY</strong><span>polisomía</span></div><div v-click="10" class="karyotype-item" tabindex="0" data-tooltip="Dos X y dos Y. Puede asociarse con función testicular reducida y diferencias del desarrollo; no todas las personas viven lo mismo."><strong>48,XXYY</strong><span>polisomía</span></div><div v-click="11" class="karyotype-item" tabindex="0" data-tooltip="Un X y tres Y. Es muy poco frecuente; se han descrito diferencias del desarrollo, pero su expresión es variable."><strong>48,XYYY</strong><span>polisomía</span></div><div v-click="12" class="karyotype-item" tabindex="0" data-tooltip="Cinco X. Es extremadamente poco frecuente y puede acompañarse de diferencias del desarrollo y necesidades médicas diversas."><strong>49,XXXXX</strong><span>pentasomía</span></div><div v-click="13" class="karyotype-item" tabindex="0" data-tooltip="Cuatro X y un Y. Puede influir en desarrollo y función testicular; requiere valoración médica individual, no estereotipos."><strong>49,XXXXY</strong><span>pentasomía</span></div><div v-click="14" class="karyotype-item" tabindex="0" data-tooltip="Pérdidas, duplicaciones, anillos o translocaciones en X o Y. Sus efectos dependen del cambio concreto y de los genes involucrados."><strong>estructural</strong><span>reordenamiento</span></div></div>
+<p class="note mt-6">No hay cuerpos “normales” frente a otros “anormales”: hay configuraciones frecuentes y variaciones.</p>
+</div>
+
+<!--
+## Notas del orador
+
+- Presentar estas configuraciones como **ejemplos**, no como un listado exhaustivo ni como diagnósticos.
+- “Mosaico” significa que una persona puede tener más de una configuración cromosómica en células distintas; por ejemplo, 45,X/46,XX o 45,X/46,XY.
+- No hay un inventario completo y fijo: además de cambios numéricos, existen mosaicismos y cambios estructurales de X o Y.
+- `45,X` es preferible a “X0”; expresa que hay 45 cromosomas y un cromosoma X.
+- Evitar inferir identidad de género, anatomía, vivencias o capacidades de una configuración cromosómica.
+- Fuentes de consulta: MedlinePlus Genetics (trisomía X, Turner y cromosoma X) y NHGRI (cariotipo y cromosoma X).
+
+Recursos: `public/slides/10a-interpretacion-cromosomica/` y `public/slides/10b-variaciones-cromosomicas/`
+-->
+
+---
+
 # Anne Fausto-Sterling
 <div class="two-col"><div><img class="author-photo tall" src="/slides/10-fausto-sterling/anne-fausto-sterling-retrato.jpg" alt="Marcador para retrato de Anne Fausto-Sterling"></div><div><div class="eyebrow">Autora de referencia · 1 minuto</div><h3><em>Sexing the Body</em> · 2000</h3><p>Bióloga y teórica feminista. Su trabajo aborda la complejidad de las características sexuales y las formas en que la ciencia y la sociedad clasifican los cuerpos.</p><p class="question">Su obra permite cuestionar las ideas simplificadas sobre el sexo biológico y reconocer la diversidad de las características sexuales humanas.</p></div></div>
 
@@ -94,24 +116,32 @@ Recursos y fuente: `public/slides/03-violencia-intrafamiliar/`
 <div v-click="1" class="card">
 <p class="concept-prompt">¿Qué es el sexo?</p>
 <div v-click="2" class="concept-definition"><h3>Sexo</h3>
-<p>Características sexuales: cromosomas, gónadas, hormonas, genitales y caracteres sexuales secundarios. Existen variaciones intersexuales.</p></div>
+<p>Conjunto de características corporales —cromosomas, gónadas, hormonas, genitales y caracteres sexuales secundarios— que no siempre se presentan de forma binaria. El sexo asignado al nacer es una clasificación, no una descripción total de una persona.</p></div>
 </div>
 <div v-click="3" class="card">
 <p class="concept-prompt">¿Qué es el género?</p>
-<div v-click="4" class="concept-definition"><h3>Género</h3><p>Normas, significados, expectativas y relaciones sociales construidas históricamente.</p></div>
+<div v-click="4" class="concept-definition"><h3>Género</h3><p>Construcción social e histórica de normas, significados y relaciones de poder que organizan lo masculino, lo femenino y otras posibilidades. Se entrecruza con clase, raza, sexualidad, territorio y discapacidad.</p></div>
 </div>
 <div v-click="5" class="card">
 <p class="concept-prompt">¿Qué son los roles de género?</p>
-<div v-click="6" class="concept-definition"><h3>Roles de género</h3><p>Expectativas sociales sobre comportamientos, tareas y responsabilidades según el género.</p></div>
+<div v-click="6" class="concept-definition"><h3>Roles de género</h3><p>Expectativas y asignaciones sociales sobre comportamientos, cuidados, trabajo y participación. Cuando se imponen como “naturales”, pueden reproducir subordinación y excluir de la decisión.</p></div>
 </div>
 </div>
 <div class="cards">
-<div v-click="7" class="card"><p class="concept-prompt">¿Qué es la identidad de género?</p><div v-click="8" class="concept-definition"><h3>Identidad de género</h3><p>Vivencia personal del propio género.</p></div></div>
-<div v-click="9" class="card"><p class="concept-prompt">¿Qué es la expresión de género?</p><div v-click="10" class="concept-definition"><h3>Expresión de género</h3><p>Formas de expresar el género mediante apariencia, vestimenta o comportamiento.</p></div></div>
-<div v-click="11" class="card"><p class="concept-prompt">¿Qué es la orientación sexual?</p><div v-click="12" class="concept-definition"><h3>Orientación sexual</h3><p>Patrones de atracción afectiva, romántica o sexual; es distinta de la identidad de género.</p></div></div>
+<div v-click="7" class="card"><p class="concept-prompt">¿Qué es la identidad de género?</p><div v-click="8" class="concept-definition"><h3>Identidad de género</h3><p>Vivencia interna e individual del género: la forma en que cada persona se piensa e identifica. Puede corresponder o no con el sexo asignado al nacer.</p></div></div>
+<div v-click="9" class="card"><p class="concept-prompt">¿Qué es la expresión de género?</p><div v-click="10" class="concept-definition"><h3>Expresión de género</h3><p>Exteriorización de la identidad o personalidad mediante lenguaje, apariencia, comportamiento, vestimenta, características corporales o nombre. No autoriza suposiciones ni juicios.</p></div></div>
+<div v-click="11" class="card"><p class="concept-prompt">¿Qué es la orientación sexual?</p><div v-click="12" class="concept-definition"><h3>Orientación sexual</h3><p>Forma en que una persona experimenta deseo o atracción sexual y afectiva hacia otras personas. Es distinta de la identidad y de la expresión de género.</p></div></div>
 </div>
 
-<!-- Recursos: public/slides/11-conceptos/ -->
+<!--
+## Notas del orador
+
+- Basado en la sección 3, “Conceptos”, y en los principios de interseccionalidad y división sexual del trabajo de la Ruta Nacional de atención y seguimiento de VBG.
+- La Ruta define de forma expresa identidad de género, expresión de género y orientación sexual. Las primeras tres tarjetas presentan un marco pedagógico coherente con su enfoque estructural.
+- Evitar usar apariencia, conducta o nombre para inferir identidad de género u orientación sexual.
+
+Recursos: `public/slides/11-conceptos/`
+-->
 
 ---
 
